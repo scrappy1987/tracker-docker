@@ -1,0 +1,1 @@
+var trainerApp = angular.module('trainerApp',['ui.router']);

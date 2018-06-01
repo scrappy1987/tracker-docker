@@ -1,0 +1,11 @@
+spring:
+    jpa:
+        database: MYSQL
+        hibernate:
+            ddl-auto: create
+
+    datasource:
+        url: jdbc:mysql://mysql:3306/trainer
+        username: trainer_user
+        password: trainer_pass
+        driver-class-name: com.mysql.jdbc.Driver

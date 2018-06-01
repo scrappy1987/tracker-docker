@@ -1,0 +1,19 @@
+<div class="panel panel-default" ng-controller="trainerController as trainerCtrl">
+	<div class="panel-heading">Available Trainers</div>
+	<div class="panel-body">
+		<div ng-hide="trainerCtrl.isHidden">
+			<h3><span>Trainer table</span></h3>
+			<table class="table">
+				<tr>
+					<th>{{'id' | uppercase}}</th>
+					<th>{{'trainer_name' | uppercase}}</th>
+				</tr>
+				<tr ng-repeat="trainer in trainerCtrl.trainers">
+					<td>{{trainer.trainerId}}</td>
+					<td ng-click="trainerCtrl.changeState(trainer.trainerId)"><button>{{trainer.trainerName}}</button></td>
+				</tr>
+			</table>
+		</div>
+		<button class="btn"ng-click="trainerCtrl.hideTable()">Hide accounts</button>
+	</div>
+</div>
