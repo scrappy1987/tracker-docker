@@ -1,7 +1,6 @@
-Sample architecture
+Introduction 
 -----------
-
-This is a simple trainer management system that can be used as a reference architecture to build a full-stack application, This system is built with the following technologies.
+This is a simple trainer management system that can be used as a reference architecture to build a full-stack application. This system is built with the following technologies:
 
 -   [Spring boot](https://spring.io/projects/spring-boot) for server side web pages and services
 
@@ -10,12 +9,6 @@ This is a simple trainer management system that can be used as a reference archi
 -   [MySql](https://www.mysql.com/) for relational data
 
 -   [Docker](https://www.docker.com/) for a standard run-time environment
-
-1. Architecture
----------------
-
-The following diagram shows the high level reference architecture for the application: ![](./docs/img/architecture.jpg)
-
 
 Pre-requisites
 -----
@@ -40,6 +33,18 @@ Using the Docker Quickstart Terminal forward port 8080 on the docker virtualbox 
 ```
 /c/Program\ Files/Oracle/VirtualBox/VBoxManage controlvm "default" natpf1 "tracker-docker,tcp,,8080,,8080"
 ```
+Architecture
+---------------
+The following diagram shows the high level reference architecture for the application: ![](./docs/img/architecture.jpg)
+
+Spring Boot components
+---------------
+TODO add spring boot stuff
+
+AngularJS components
+---------------
+TODO add AngularJS stuff
+
 Running the application
 -----
 Step 1:
