@@ -1,12 +1,13 @@
-package com.qa.tracker.dto;
+package com.qa.tracker.business.dto;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class TrainerDto {
-    Integer trainerId;
-    String trainerName;
-    List<SkillDto> skills= new ArrayList<>();
+	
+    private Integer trainerId;
+    private String trainerName;
+    private List<SkillDto> skills= new ArrayList<>();
 
     public TrainerDto(Integer trainerId, String trainerName, List<SkillDto> skills) {
         this.trainerId = trainerId;

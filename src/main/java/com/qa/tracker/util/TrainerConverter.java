@@ -1,9 +1,9 @@
-package com.qa.tracker.converter;
+package com.qa.tracker.util;
 
 import java.util.stream.Collectors;
 
-import com.qa.tracker.dto.TrainerDto;
-import com.qa.tracker.entity.Trainer;
+import com.qa.tracker.business.dto.TrainerDto;
+import com.qa.tracker.persistence.domain.Trainer;
 
 public class TrainerConverter {
 	

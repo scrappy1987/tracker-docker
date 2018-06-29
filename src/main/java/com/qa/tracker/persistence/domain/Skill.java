@@ -1,4 +1,4 @@
-package com.qa.tracker.entity;
+package com.qa.tracker.persistence.domain;
 
 import javax.persistence.*;
 

@@ -1,9 +1,9 @@
-package com.qa.tracker.repository;
-
-import com.qa.tracker.entity.Skill;
+package com.qa.tracker.persistence;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.qa.tracker.persistence.domain.Skill;
 
 @Repository
 public interface SkillRepository extends JpaRepository<Skill, Integer>{

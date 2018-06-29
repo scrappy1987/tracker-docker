@@ -1,8 +1,8 @@
-package com.qa.tracker.service;
+package com.qa.tracker.business;
 
 import java.util.List;
 
-import com.qa.tracker.dto.TrainerDto;
+import com.qa.tracker.business.dto.TrainerDto;
 
 public interface TrainerService {
     TrainerDto getTrainerById(Integer trainerId);

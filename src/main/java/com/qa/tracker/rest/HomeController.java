@@ -1,13 +1,14 @@
-package com.qa.tracker.controller;
+package com.qa.tracker.rest;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import com.qa.tracker.constants.Constants;
 
 @Controller
 public class HomeController {
 	
-	@RequestMapping("/home")
+	@RequestMapping(Constants.HOME)
 	public String home() {
-		return "index";
+		return Constants.INDEX;
 	}
 }

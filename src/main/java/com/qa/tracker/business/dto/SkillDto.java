@@ -1,8 +1,9 @@
-package com.qa.tracker.dto;
+package com.qa.tracker.business.dto;
 
 public class SkillDto {
-    Integer skillId;
-    String SkillName;
+    
+	private Integer skillId;
+    private String SkillName;
 
     public SkillDto(Integer skillId, String skillName) {
         this.skillId = skillId;

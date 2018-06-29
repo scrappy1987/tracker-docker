@@ -1,7 +1,7 @@
-package com.qa.tracker.converter;
+package com.qa.tracker.util;
 
-import com.qa.tracker.dto.SkillDto;
-import com.qa.tracker.entity.Skill;
+import com.qa.tracker.business.dto.SkillDto;
+import com.qa.tracker.persistence.domain.Skill;
 
 public class SkillConverter {
 	

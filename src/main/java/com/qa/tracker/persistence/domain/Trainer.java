@@ -1,14 +1,11 @@
-package com.qa.tracker.entity;
+package com.qa.tracker.persistence.domain;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.List;
 
 @Entity
-public class Trainer implements Serializable{
-
-    private static final long serialVersionUID = 0x62A6DA99AABDA8A8L;
+public class Trainer{
 	
 	@Column
 	@GeneratedValue(strategy = GenerationType.AUTO)

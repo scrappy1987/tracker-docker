@@ -1,22 +1,19 @@
 package com.qa.tracker;
 
-import com.qa.tracker.entity.Skill;
-import com.qa.tracker.entity.Trainer;
-import com.qa.tracker.repository.TrainerRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+import com.qa.tracker.persistence.TrainerRepository;
+import com.qa.tracker.persistence.domain.Skill;
+import com.qa.tracker.persistence.domain.Trainer;
 import javax.annotation.PostConstruct;
-
 import java.util.Arrays;
 
 @SpringBootApplication
 public class App {
 	
 	@Autowired
-	TrainerRepository trainerRepository;
+	private TrainerRepository trainerRepository;
 
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);

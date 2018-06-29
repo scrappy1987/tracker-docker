@@ -1,9 +1,8 @@
-package com.qa.tracker.service.impl;
+package com.qa.tracker.business;
 
-import com.qa.tracker.converter.TrainerConverter;
-import com.qa.tracker.dto.TrainerDto;
-import com.qa.tracker.repository.TrainerRepository;
-import com.qa.tracker.service.TrainerService;
+import com.qa.tracker.business.dto.TrainerDto;
+import com.qa.tracker.persistence.TrainerRepository;
+import com.qa.tracker.util.TrainerConverter;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,7 +14,7 @@ import org.springframework.stereotype.Service;
 public class TrainerServiceimpl implements TrainerService {
 	
 	@Autowired
-	TrainerRepository trainerRepository;
+	private TrainerRepository trainerRepository;
 
 	@Override
 	public TrainerDto getTrainerById(Integer trainerId) {

@@ -41,14 +41,6 @@ Architecture
 ---------------
 The following diagram shows the high level reference architecture for the application: ![](./docs/img/architecture.jpg)
 
-Spring Boot components
----------------
-TODO add spring boot stuff
-
-AngularJS components
----------------
-TODO add AngularJS stuff
-
 Running the application
 -----
 Step 1:

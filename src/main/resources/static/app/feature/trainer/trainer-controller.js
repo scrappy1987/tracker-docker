@@ -7,10 +7,20 @@
     	var vm = this;
         
         vm.isHidden = false;
+        vm.accountString = "Hide Trainers";
         
         vm.hideTable = function()
         {
         	vm.isHidden = !vm.isHidden
+        	
+        	if(vm.isHidden)
+        	{
+        		vm.accountString = "Show Trainers";
+        	}
+        	else
+        	{
+        		vm.accountString = "Hide Trainers";
+        	}
         };
 
         vm.changeState = function(trainerId)
